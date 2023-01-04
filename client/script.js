@@ -88,7 +88,7 @@ const handleSubmit = async (e) => {
 
     //fetch data from the server
     
-    const response = await fetch('https://jaime.onrender.com', {
+    const response = await fetch('https://jaimechat.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
